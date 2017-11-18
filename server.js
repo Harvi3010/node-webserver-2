@@ -45,6 +45,14 @@ app.get('/about', (req, res) => {
   });
 });
 
+
+app.get('/json', (req, res) => {
+  res.send( {
+    name: 'Harvinder Singh',
+    Activity: 'Node js IoT deployment'
+  });
+});
+
 // /bad - send back json with errorMessage
 app.get('/bad', (req, res) => {
   res.send({
