@@ -49,7 +49,10 @@ app.get('/about', (req, res) => {
 app.get('/json', (req, res) => {
   res.send( {
     name: 'Harvinder Singh',
-    Activity: 'Node js IoT deployment'
+    Activity: 'Node js IoT deployment',
+    project: 'VTS',
+    Implementation: 'Draft'
+
   });
 });
 
