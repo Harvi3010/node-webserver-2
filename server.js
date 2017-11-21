@@ -45,9 +45,9 @@ app.get('/about', (req, res) => {
   });
 });
 
-app.get('/sanjay', (req, res) => {
+app.get('/Pavan', (req, res) => {
   res.send({
-    name: 'sanjay',
+    name: 'Pavan',
     work: 'developer'
   });
 });
