@@ -45,6 +45,13 @@ app.get('/about', (req, res) => {
   });
 });
 
+app.get('/sanjay', (req, res) => {
+  res.send({
+    name: 'sanjay',
+    work: 'developer'
+  });
+});
+
 
 app.get('/json', (req, res) => {
   res.send( {
